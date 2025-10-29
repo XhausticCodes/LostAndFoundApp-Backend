@@ -1,0 +1,96 @@
+package edu.infosys.lostAndFoundApplication.bean;
+
+import java.time.LocalDateTime;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
+
+@Entity
+public class Flag {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
+
+    @ManyToOne
+    @JoinColumn(name = "itemId", referencedColumnName = "id")
+    private LostFoundItem item;
+
+    @ManyToOne
+    @JoinColumn(name = "reportedByUsername", referencedColumnName = "username")
+    private CampusUser reportedBy;
+
+    @Column(columnDefinition = "TEXT")
+    private String reason;
+
+    private boolean reviewed;
+    private LocalDateTime createdAt;
+
+
+    public int getId() {
+        return id;
+    }
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public LostFoundItem getItem() {
+        return item;
+    }
+    public void setItem(LostFoundItem item) {
+        this.item = item;
+    }
+
+    public CampusUser getReportedBy() {
+        return reportedBy;
+    }
+    public void setReportedBy(CampusUser reportedBy) {
+        this.reportedBy = reportedBy;
+    }
+
+    public String getReason() {
+        return reason;
+    }
+    public void setReason(String reason) {
+        this.reason = reason;
+    }
+
+    public boolean isReviewed() {
+        return reviewed;
+    }
+    public void setReviewed(boolean reviewed) {
+        this.reviewed = reviewed;
+    }
+
+    public LocalDateTime getCreatedAt() {
+        return createdAt;
+    }
+    public void setCreatedAt(LocalDateTime createdAt) {
+        this.createdAt = createdAt;
+    }
+
+    
+    public Flag(int id, LostFoundItem item, CampusUser reportedBy, String reason,
+                boolean reviewed, LocalDateTime createdAt) {
+        super();
+        this.id = id;
+        this.item = item;
+        this.reportedBy = reportedBy;
+        this.reason = reason;
+        this.reviewed = reviewed;
+        this.createdAt = createdAt;
+    }
+
+   
+    @Override
+    public String toString() {
+        return "Flag [id=" + id + ", item=" + item + ", reportedBy=" + reportedBy +
+               ", reason=" + reason + ", reviewed=" + reviewed +
+               ", createdAt=" + createdAt + "]";
+    }
+}

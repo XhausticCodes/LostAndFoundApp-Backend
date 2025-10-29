@@ -1,0 +1,1029 @@
+!SESSION 2025-10-10 16:16:20.323 -----------------------------------------------
+eclipse.buildId=4.33.0.202410162246
+java.version=21.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+This is a continuation of log file C:\Users\ASUS\Documents\Infosysproject2025\CampusManagement-backend\CampusManagement\.metadata\.bak_0.log
+Created Time: 2025-10-10 16:28:01.774
+
+!ENTRY org.eclipse.core.resources 4 75 2025-10-10 16:28:01.776
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.jdt.core 4 75 2025-10-10 16:28:01.776
+!MESSAGE Errors running builder 'Java Builder' on project 'lostAndFoundApplication'.
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.internal.compiler.env.IModule.isAutomatic()" because "module" is null
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryModuleBinding.create(BinaryModuleBinding.java:101)
+	at org.eclipse.jdt.internal.compiler.impl.ITypeRequestor.accept(ITypeRequestor.java:65)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.getModuleFromAnswer(LookupEnvironment.java:479)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForTypeFromModules(LookupEnvironment.java:416)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:278)
+	at org.eclipse.jdt.internal.compiler.lookup.UnresolvedReferenceBinding.resolve(UnresolvedReferenceBinding.java:116)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveType(BinaryTypeBinding.java:251)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.superInterfaces(BinaryTypeBinding.java:2552)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.superInterfaces(BinaryTypeBinding.java:2568)
+	at org.eclipse.jdt.internal.compiler.lookup.ClassScope.detectHierarchyCycle(ClassScope.java:1581)
+	at org.eclipse.jdt.internal.compiler.lookup.ClassScope.detectHierarchyCycle(ClassScope.java:1519)
+	at org.eclipse.jdt.internal.compiler.ast.SingleTypeReference.getTypeBinding(SingleTypeReference.java:76)
+	at org.eclipse.jdt.internal.compiler.ast.TypeReference.internalResolveType(TypeReference.java:525)
+	at org.eclipse.jdt.internal.compiler.ast.TypeReference.resolveType(TypeReference.java:640)
+	at org.eclipse.jdt.internal.compiler.ast.TypeReference.resolveType(TypeReference.java:636)
+	at org.eclipse.jdt.internal.compiler.ast.TypeReference.resolveSuperType(TypeReference.java:608)
+	at org.eclipse.jdt.internal.compiler.lookup.ClassScope.findSupertype(ClassScope.java:1649)
+	at org.eclipse.jdt.internal.compiler.lookup.ClassScope.connectSuperclass(ClassScope.java:1176)
+	at org.eclipse.jdt.internal.compiler.lookup.ClassScope.connectTypeHierarchy(ClassScope.java:1456)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.connectTypeHierarchy(CompilationUnitScope.java:409)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment$CompleteTypeBindingsSteps.perform(LookupEnvironment.java:185)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.completeTypeBindings(LookupEnvironment.java:558)
+	at org.eclipse.jdt.internal.compiler.Compiler.internalBeginToCompile(Compiler.java:900)
+	at org.eclipse.jdt.internal.compiler.Compiler.beginToCompile(Compiler.java:393)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:443)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:425)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:414)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.compile(BatchImageBuilder.java:211)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:345)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:79)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:286)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:310)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:221)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-10 16:28:19.122
+!MESSAGE [Info]	[fetchCompletions] Request 4a9a1147-5ffb-47a6-b1e8-93503c202cad at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 396.84210000000894ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-10 16:28:19.151
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-10 16:28:19.618
+!MESSAGE [Info]	[fetchCompletions] Request 14ea6d24-a7d7-43f5-8db1-2ad79d3cc190 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 442.01459999999497ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-10 16:28:19.678
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-10 16:28:20.117
+!MESSAGE [Info]	[fetchCompletions] Request aac6244b-b94c-497f-8eab-d2ba620cf0a1 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 412.14769999997225ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-10 16:28:20.223
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-10 16:28:20.562
+!MESSAGE [Info]	[fetchCompletions] Request 2bf55161-4188-4258-a351-f18e6380952c at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 327.9334999999264ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-10 16:28:20.620
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-10 16:28:21.309
+!MESSAGE [Info]	[fetchCompletions] Request b3e9c5ba-1956-4e15-832f-08cf5a636cc2 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 647.090499999933ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-10 16:28:21.310
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-10 16:28:41.170
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-10 16:28:41.170
+!MESSAGE [Info]	[fetchCompletions] Request 819a74e9-d11e-43f6-ae56-8b5cbd5baf11 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 353.08869999996386ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-10 16:28:42.954
+!MESSAGE [Info]	[fetchCompletions] Request 035fdd73-5431-4abf-8867-4bc24d80a4e1 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 1069.6857999999775ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-10 16:28:42.955
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-10 16:32:52.828
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-10 16:32:52.829
+!MESSAGE [Info]	[fetchCompletions] Request 5eab38ea-a865-40fb-a84a-07518638ee28 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 725.3861000000034ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-10 16:32:55.508
+!MESSAGE [Info]	[fetchCompletions] Request 97ab1d11-4b6f-466e-9f6b-59d919321b0c at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 253.9607000000542ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-10 16:32:55.509
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-10 16:32:59.318
+!MESSAGE [Info]	[fetchCompletions] Request 16cacadc-9d67-4c81-a444-e2d36a221f20 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 233.8974000000162ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-10 16:32:59.322
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-10 16:33:11.323
+!MESSAGE [Info]	[fetchCompletions] Request ab18b34d-9602-4aac-8ce4-abc4f0c3de0c at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 285.62690000003204ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-10 16:33:11.335
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-10 16:40:39.001
+!MESSAGE [Info] Document is null for editor: FuzzyLogicRepository.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-10 16:40:39.003
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ASUS/Documents/Infosysproject2025/CampusManagement-backend/CampusManagement/lostAndFoundApplication/src/main/java/edu/infosys/lostAndFoundApplication/dao/FuzzyLogicRepository.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-10 16:40:39.080
+!MESSAGE [Info] Document is null for editor: FoundItemRepository.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-10 16:40:39.081
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ASUS/Documents/Infosysproject2025/CampusManagement-backend/CampusManagement/lostAndFoundApplication/src/main/java/edu/infosys/lostAndFoundApplication/dao/FoundItemRepository.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-10 16:40:39.104
+!MESSAGE [Info] Document is null for editor: LostItemController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-10 16:40:39.105
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ASUS/Documents/Infosysproject2025/CampusManagement-backend/CampusManagement/lostAndFoundApplication/src/main/java/edu/infosys/lostAndFoundApplication/controller/LostItemController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-10 16:40:39.199
+!MESSAGE [Info] Document is null for editor: FuzzyLogic.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-10 16:40:39.200
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ASUS/Documents/Infosysproject2025/CampusManagement-backend/CampusManagement/lostAndFoundApplication/src/main/java/edu/infosys/lostAndFoundApplication/service/FuzzyLogic.java
+!SESSION 2025-10-11 09:29:52.408 -----------------------------------------------
+eclipse.buildId=4.33.0.202410162246
+java.version=21.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-10-11 09:31:22.698
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-10-11 09:31:46.643
+!MESSAGE Logback config file: C:\Users\ASUS\Documents\Infosysproject2025\CampusManagement-backend\CampusManagement\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-10-11 09:31:47.631
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-10-11 09:31:47.632
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-10-11 09:31:48.216
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-10-11 09:31:48.217
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-10-11 09:31:56.828
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\ASUS\Downloads\sts-4.26.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.4.v20240802-1551\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/ASUS/Documents/Infosysproject2025/CampusManagement-backend/CampusManagement/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1760155316827
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\ASUS\Downloads\sts-4.26.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.58.0.202410160331\servers\spring-boot-language-server\spring-boot-language-server-1.58.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-10-11 09:31:56.830
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-10-11 09:31:56.893
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 7748
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-11 09:32:03.503
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-11 09:32:03.509
+!MESSAGE [Info] Found native binary in fragment bundle: com.microsoft.copilot.eclipse.core.agent.win32
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-11 09:32:03.551
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-10-11 09:32:03.765
+!MESSAGE Boot project ADDED: lostAndFoundApplication
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-10-11 09:32:03.767
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-10-11 09:32:03.769
+!MESSAGE Started Boot LS process
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-10-11 09:32:04.087
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ASUS'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-11 09:32:07.869
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.363.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-11 09:32:08.397
+!MESSAGE [Info]	[certificates] Removed 15 expired certificates
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-11 10:06:39.668
+!MESSAGE [Info]	[default] Context provider relatedFilesShim exceeded time budget of 150ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-11 10:06:40.676
+!MESSAGE [Info]	[fetchCompletions] Request e2088bdb-b656-4ae7-82d4-bb2c06845ed5 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 995.4887999999337ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-11 10:06:40.677
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-11 10:07:11.877
+!MESSAGE [Info]	[fetchCompletions] Request dcc53430-b332-447d-b49b-7cf130421d8f at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 359.17109999991953ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-11 10:07:11.878
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-10-11 10:11:55.352
+!MESSAGE Classpath changed for project: lostAndFoundApplication
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-10-11 10:12:19.956
+!MESSAGE Unknown or unsupported source locator org.eclipse.jdt.internal.launching.sourcelookup.advanced.AdvancedSourceLookupDirector
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-11 16:41:04.498
+!MESSAGE [Info] Document is null for editor: FuzzyLogic.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-11 16:41:04.500
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ASUS/Documents/Infosysproject2025/CampusManagement-backend/CampusManagement/lostAndFoundApplication/src/main/java/edu/infosys/lostAndFoundApplication/service/FuzzyLogic.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-11 16:41:04.576
+!MESSAGE [Info] Document is null for editor: FoundItem.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-11 16:41:04.577
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ASUS/Documents/Infosysproject2025/CampusManagement-backend/CampusManagement/lostAndFoundApplication/src/main/java/edu/infosys/lostAndFoundApplication/bean/FoundItem.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-11 16:41:04.604
+!MESSAGE [Info] Document is null for editor: LostItemRepository.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-11 16:41:04.605
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ASUS/Documents/Infosysproject2025/CampusManagement-backend/CampusManagement/lostAndFoundApplication/src/main/java/edu/infosys/lostAndFoundApplication/dao/LostItemRepository.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-11 16:41:04.632
+!MESSAGE [Info] Document is null for editor: LostItemService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-11 16:41:04.634
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ASUS/Documents/Infosysproject2025/CampusManagement-backend/CampusManagement/lostAndFoundApplication/src/main/java/edu/infosys/lostAndFoundApplication/service/LostItemService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-11 16:41:04.703
+!MESSAGE [Info] Document is null for editor: LostItemDao.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-11 16:41:04.705
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ASUS/Documents/Infosysproject2025/CampusManagement-backend/CampusManagement/lostAndFoundApplication/src/main/java/edu/infosys/lostAndFoundApplication/dao/LostItemDao.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-11 16:41:04.729
+!MESSAGE [Info] Document is null for editor: LostItemDaoImpl.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-11 16:41:04.730
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ASUS/Documents/Infosysproject2025/CampusManagement-backend/CampusManagement/lostAndFoundApplication/src/main/java/edu/infosys/lostAndFoundApplication/dao/LostItemDaoImpl.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-11 16:41:04.753
+!MESSAGE [Info] Document is null for editor: LostItemController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-11 16:41:04.755
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ASUS/Documents/Infosysproject2025/CampusManagement-backend/CampusManagement/lostAndFoundApplication/src/main/java/edu/infosys/lostAndFoundApplication/controller/LostItemController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-11 16:41:04.794
+!MESSAGE [Info] Document is null for editor: LostItem.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-11 16:41:04.795
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ASUS/Documents/Infosysproject2025/CampusManagement-backend/CampusManagement/lostAndFoundApplication/src/main/java/edu/infosys/lostAndFoundApplication/bean/LostItem.java
+!SESSION 2025-10-16 12:20:19.610 -----------------------------------------------
+eclipse.buildId=4.33.0.202410162246
+java.version=21.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data C:\Users\ASUS\Documents\Infosysproject2025\CampusManagement-backend\CampusManagement
+
+!ENTRY ch.qos.logback.classic 1 0 2025-10-16 12:21:31.219
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-10-16 12:21:34.926
+!MESSAGE Logback config file: C:\Users\ASUS\Documents\Infosysproject2025\CampusManagement-backend\CampusManagement\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-10-16 12:21:36.024
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-10-16 12:21:36.024
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-10-16 12:21:36.666
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-10-16 12:21:36.666
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-10-16 12:21:44.537
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\ASUS\Downloads\sts-4.26.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.4.v20240802-1551\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/ASUS/Documents/Infosysproject2025/CampusManagement-backend/CampusManagement/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1760597504535
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\ASUS\Downloads\sts-4.26.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.58.0.202410160331\servers\spring-boot-language-server\spring-boot-language-server-1.58.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-10-16 12:21:44.538
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-10-16 12:21:44.579
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 3084
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-16 12:21:46.874
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-16 12:21:46.878
+!MESSAGE [Info] Found native binary in fragment bundle: com.microsoft.copilot.eclipse.core.agent.win32
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-16 12:21:46.907
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-10-16 12:21:47.049
+!MESSAGE Boot project ADDED: lostAndFoundApplication
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-10-16 12:21:47.050
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-10-16 12:21:47.052
+!MESSAGE Started Boot LS process
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-10-16 12:21:47.371
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ASUS'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-16 12:21:50.961
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.363.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-16 12:21:51.533
+!MESSAGE [Info]	[certificates] Removed 15 expired certificates
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-16 13:30:37.505
+!MESSAGE [Info] Document is null for editor: EncoderConfig.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-16 13:30:37.506
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ASUS/Documents/Infosysproject2025/CampusManagement-backend/CampusManagement/lostAndFoundApplication/src/main/java/edu/infosys/lostAndFoundApplication/config/EncoderConfig.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-16 13:30:37.540
+!MESSAGE [Info] Document is null for editor: LostItem.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-16 13:30:37.541
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ASUS/Documents/Infosysproject2025/CampusManagement-backend/CampusManagement/lostAndFoundApplication/src/main/java/edu/infosys/lostAndFoundApplication/bean/LostItem.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-16 13:30:37.569
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-16 13:30:37.571
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ASUS/Documents/Infosysproject2025/CampusManagement-backend/CampusManagement/lostAndFoundApplication/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-16 13:30:37.622
+!MESSAGE [Info] Document is null for editor: SystemConfig.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-16 13:30:37.624
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ASUS/Documents/Infosysproject2025/CampusManagement-backend/CampusManagement/lostAndFoundApplication/src/main/java/edu/infosys/lostAndFoundApplication/config/SystemConfig.java
+!SESSION 2025-10-16 19:55:53.240 -----------------------------------------------
+eclipse.buildId=4.33.0.202410162246
+java.version=21.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-10-16 19:57:35.132
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-10-16 19:57:45.328
+!MESSAGE Logback config file: C:\Users\ASUS\Documents\Infosysproject2025\CampusManagement-backend\CampusManagement\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-10-16 19:57:46.254
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-10-16 19:57:46.254
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-10-16 19:57:46.879
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-10-16 19:57:46.879
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-10-16 19:57:54.590
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\ASUS\Downloads\sts-4.26.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.4.v20240802-1551\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/ASUS/Documents/Infosysproject2025/CampusManagement-backend/CampusManagement/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1760624874589
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\ASUS\Downloads\sts-4.26.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.58.0.202410160331\servers\spring-boot-language-server\spring-boot-language-server-1.58.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-10-16 19:57:54.592
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-10-16 19:57:54.660
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 2684
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-16 19:57:57.974
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-16 19:57:57.980
+!MESSAGE [Info] Found native binary in fragment bundle: com.microsoft.copilot.eclipse.core.agent.win32
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-16 19:57:58.020
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-10-16 19:57:58.300
+!MESSAGE Boot project ADDED: lostAndFoundApplication
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-10-16 19:57:58.306
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-10-16 19:57:58.310
+!MESSAGE Started Boot LS process
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-10-16 19:57:58.630
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ASUS'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-16 19:58:02.655
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.363.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-16 19:58:03.297
+!MESSAGE [Info]	[certificates] Removed 15 expired certificates
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-16 21:04:09.223
+!MESSAGE [Info] Completion request timed out after 5000 milliseconds
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-16 21:20:55.597
+!MESSAGE [Info]	[fetchCompletions] Request 411b6a2d-8c30-41ae-8651-3e60615af208 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 1607.984499999322ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-16 21:20:56.523
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-16 21:20:57.073
+!MESSAGE [Info]	[fetchCompletions] Request f3718f84-3b82-4484-b04d-a0a8ffc93517 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 499.61679999995977ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-16 21:20:57.082
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-16 21:21:13.802
+!MESSAGE [Info]	[fetchCompletions] Request 3fa69962-9e8d-4ba0-8864-eb77aca3e22a at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 740.7641000002623ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-16 21:21:13.803
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-16 21:21:28.725
+!MESSAGE [Info]	[fetchCompletions] Request 95c1fd53-7d1f-4ff7-97f8-7e434cc2e8b8 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 533.9317000005394ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-16 21:21:28.957
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-16 21:21:29.636
+!MESSAGE [Info]	[fetchCompletions] Request 3fa04bcf-930e-4c67-92bf-1fb5e9686212 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 651.8523999992758ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-16 21:21:29.647
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-16 21:24:21.149
+!MESSAGE [Info]	[fetchCompletions] Request 367262ec-cafc-4e66-90d3-16abb6fefae8 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 880.702500000596ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-16 21:24:21.152
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-16 21:25:06.292
+!MESSAGE [Info]	[fetchCompletions] Request 0005458c-dfa3-4006-a621-099aa137814c at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 378.3064000001177ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-16 21:25:06.293
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-16 21:40:00.040
+!MESSAGE [Info]	[fetchCompletions] Request 480e960a-f8e9-4526-aae2-30a3323e3764 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 1092.9128000000492ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-16 21:40:00.047
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-16 22:18:00.638
+!MESSAGE [Info] Document is null for editor: SystemConfig.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-16 22:18:00.639
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ASUS/Documents/Infosysproject2025/CampusManagement-backend/CampusManagement/lostAndFoundApplication/src/main/java/edu/infosys/lostAndFoundApplication/config/SystemConfig.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-16 22:18:00.669
+!MESSAGE [Info] Document is null for editor: FuzzyLogicController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-16 22:18:00.670
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ASUS/Documents/Infosysproject2025/CampusManagement-backend/CampusManagement/lostAndFoundApplication/src/main/java/edu/infosys/lostAndFoundApplication/controller/FuzzyLogicController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-16 22:18:00.717
+!MESSAGE [Info] Document is null for editor: FuzzyLogicRepository.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-16 22:18:00.718
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ASUS/Documents/Infosysproject2025/CampusManagement-backend/CampusManagement/lostAndFoundApplication/src/main/java/edu/infosys/lostAndFoundApplication/dao/FuzzyLogicRepository.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-16 22:18:00.758
+!MESSAGE [Info] Document is null for editor: FoundItemRepository.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-16 22:18:00.759
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ASUS/Documents/Infosysproject2025/CampusManagement-backend/CampusManagement/lostAndFoundApplication/src/main/java/edu/infosys/lostAndFoundApplication/dao/FoundItemRepository.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-16 22:18:00.776
+!MESSAGE [Info] Document is null for editor: LostItemRepository.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-16 22:18:00.777
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ASUS/Documents/Infosysproject2025/CampusManagement-backend/CampusManagement/lostAndFoundApplication/src/main/java/edu/infosys/lostAndFoundApplication/dao/LostItemRepository.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-16 22:18:00.794
+!MESSAGE [Info] Document is null for editor: FoundItemDaoImpl.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-16 22:18:00.795
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ASUS/Documents/Infosysproject2025/CampusManagement-backend/CampusManagement/lostAndFoundApplication/src/main/java/edu/infosys/lostAndFoundApplication/dao/FoundItemDaoImpl.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-16 22:18:00.825
+!MESSAGE [Info] Document is null for editor: pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-16 22:18:00.826
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ASUS/Documents/Infosysproject2025/CampusManagement-backend/CampusManagement/lostAndFoundApplication/pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-16 22:18:00.882
+!MESSAGE [Info] Document is null for editor: FuzzyLogic.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-16 22:18:00.883
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ASUS/Documents/Infosysproject2025/CampusManagement-backend/CampusManagement/lostAndFoundApplication/src/main/java/edu/infosys/lostAndFoundApplication/service/FuzzyLogic.java
+!SESSION 2025-10-16 22:22:11.772 -----------------------------------------------
+eclipse.buildId=4.33.0.202410162246
+java.version=21.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-10-16 22:22:19.588
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-10-16 22:22:42.080
+!MESSAGE Logback config file: C:\Users\ASUS\Documents\Infosysproject2025\CampusManagement-backend\CampusManagement\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-10-16 22:22:42.919
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-10-16 22:22:42.919
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-10-16 22:22:43.936
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-10-16 22:22:43.936
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-10-16 22:22:51.619
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\ASUS\Downloads\sts-4.26.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.4.v20240802-1551\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/ASUS/Documents/Infosysproject2025/CampusManagement-backend/CampusManagement/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1760633571617
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\ASUS\Downloads\sts-4.26.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.58.0.202410160331\servers\spring-boot-language-server\spring-boot-language-server-1.58.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-10-16 22:22:51.621
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-10-16 22:22:51.662
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 6052
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-16 22:23:00.018
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-16 22:23:00.153
+!MESSAGE [Info] Found native binary in fragment bundle: com.microsoft.copilot.eclipse.core.agent.win32
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-16 22:23:00.304
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-10-16 22:23:00.448
+!MESSAGE Boot project ADDED: lostAndFoundApplication
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-10-16 22:23:00.449
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-10-16 22:23:00.452
+!MESSAGE Started Boot LS process
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-10-16 22:23:00.624
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ASUS'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-16 22:23:06.489
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.363.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-16 22:23:07.508
+!MESSAGE [Info]	[certificates] Removed 15 expired certificates
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-16 22:34:29.081
+!MESSAGE [Info] Document is null for editor: FuzzyLogic.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-16 22:34:29.083
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ASUS/Documents/Infosysproject2025/CampusManagement-backend/CampusManagement/lostAndFoundApplication/src/main/java/edu/infosys/lostAndFoundApplication/service/FuzzyLogic.java
+!SESSION 2025-10-17 19:55:22.633 -----------------------------------------------
+eclipse.buildId=4.33.0.202410162246
+java.version=21.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-10-17 19:57:24.977
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-10-17 20:01:12.593
+!MESSAGE Logback config file: C:\Users\ASUS\Documents\Infosysproject2025\CampusManagement-backend\CampusManagement\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-10-17 20:01:13.536
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-10-17 20:01:13.537
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-10-17 20:01:14.138
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-10-17 20:01:14.138
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-10-17 20:01:21.655
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\ASUS\Downloads\sts-4.26.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.4.v20240802-1551\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/ASUS/Documents/Infosysproject2025/CampusManagement-backend/CampusManagement/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1760711481654
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\ASUS\Downloads\sts-4.26.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.58.0.202410160331\servers\spring-boot-language-server\spring-boot-language-server-1.58.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-10-17 20:01:21.656
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-10-17 20:01:21.707
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 17884
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-17 20:01:23.815
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-17 20:01:23.819
+!MESSAGE [Info] Found native binary in fragment bundle: com.microsoft.copilot.eclipse.core.agent.win32
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-17 20:01:23.852
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-10-17 20:01:24.063
+!MESSAGE Boot project ADDED: lostAndFoundApplication
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-10-17 20:01:24.064
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-10-17 20:01:24.065
+!MESSAGE Started Boot LS process
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-10-17 20:01:24.276
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ASUS'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-17 20:01:28.305
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.363.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-17 20:01:28.822
+!MESSAGE [Info]	[certificates] Removed 15 expired certificates
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-18 00:01:50.493
+!MESSAGE [Info] Document is null for editor: FuzzyLogic.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-18 00:01:50.495
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ASUS/Documents/Infosysproject2025/CampusManagement-backend/CampusManagement/lostAndFoundApplication/src/main/java/edu/infosys/lostAndFoundApplication/service/FuzzyLogic.java
+!SESSION 2025-10-22 10:01:57.778 -----------------------------------------------
+eclipse.buildId=4.33.0.202410162246
+java.version=21.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-10-22 10:03:22.508
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-10-22 10:10:32.058
+!MESSAGE Logback config file: C:\Users\ASUS\Documents\Infosysproject2025\CampusManagement-backend\CampusManagement\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-10-22 10:10:33.144
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-10-22 10:10:33.144
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-10-22 10:10:33.792
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-10-22 10:10:33.792
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-10-22 10:10:41.777
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\ASUS\Downloads\sts-4.26.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.4.v20240802-1551\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/ASUS/Documents/Infosysproject2025/CampusManagement-backend/CampusManagement/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1761108041776
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\ASUS\Downloads\sts-4.26.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.58.0.202410160331\servers\spring-boot-language-server\spring-boot-language-server-1.58.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-10-22 10:10:41.778
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-10-22 10:10:41.843
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 10312
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-22 10:10:44.806
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-22 10:10:44.811
+!MESSAGE [Info] Found native binary in fragment bundle: com.microsoft.copilot.eclipse.core.agent.win32
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-22 10:10:44.862
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-10-22 10:10:45.105
+!MESSAGE Boot project ADDED: lostAndFoundApplication
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-10-22 10:10:45.108
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-10-22 10:10:45.115
+!MESSAGE Started Boot LS process
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-10-22 10:10:45.461
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ASUS'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 10:10:49.998
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.363.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 10:10:50.669
+!MESSAGE [Info]	[certificates] Removed 15 expired certificates
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 10:20:26.389
+!MESSAGE [Info]	[default] Context provider relatedFilesShim exceeded time budget of 150ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 10:20:27.328
+!MESSAGE [Info]	[fetchCompletions] Request 35ea29af-8dae-4d58-8505-6a7bb278810a at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 927.1718999999575ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 10:20:27.329
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 10:20:27.631
+!MESSAGE [Info]	[fetchCompletions] Request 706a66bd-a4a3-476e-b044-7de1fecf483d at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 230.77030000009108ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 10:20:27.632
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 10:21:33.201
+!MESSAGE [Info]	[fetchCompletions] Request fc1894ab-5697-4f0d-9469-563d981aa7fe at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 298.9798000000883ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 10:21:33.213
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 10:21:34.307
+!MESSAGE [Info]	[fetchCompletions] Request 108df1a0-4408-40fe-9e2f-a72afbbb664c at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 298.3326000000816ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 10:21:34.348
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 10:22:10.382
+!MESSAGE [Info]	[fetchCompletions] Request d0ddf2c8-902c-43ce-90d1-b13894aa6f41 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 249.41019999992568ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 10:22:10.383
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 10:22:16.326
+!MESSAGE [Info]	[fetchCompletions] Request a9a378d3-06ba-4836-8531-ad06c0c32073 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 235.25749999994878ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 10:22:16.327
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 10:27:39.300
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 10:27:39.301
+!MESSAGE [Info]	[fetchCompletions] Request c65bdd43-7139-400d-82d7-6ca35fb3896c at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 645.6718999999575ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 10:27:47.338
+!MESSAGE [Info]	[fetchCompletions] Request f7c00e04-2e91-480e-b110-ebec91a31cd9 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 293.8151000000071ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 10:27:47.339
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 10:27:48.305
+!MESSAGE [Info]	[fetchCompletions] Request 0d224fa5-ec01-40c1-8971-0d8b45fdd38d at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 278.6445999999996ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 10:27:48.306
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 10:28:01.532
+!MESSAGE [Info]	[fetchCompletions] Request d59691e3-6190-493b-88bd-ad060421e0e4 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 287.91339999996126ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 10:28:01.533
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 10:34:11.960
+!MESSAGE [Info]	[fetchCompletions] Request f163e4d1-c5b3-47ae-8e2b-7f54121d7b34 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 813.9962999999989ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 10:34:11.961
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 10:34:12.227
+!MESSAGE [Info]	[fetchCompletions] Request 8df17549-af0e-45f3-909a-71719be2a7e0 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 244.98870000010356ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 10:34:12.295
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 10:34:41.698
+!MESSAGE [Info]	[fetchCompletions] Request 377fd4c4-5a7e-495b-b08f-0fc7bbd90bb4 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 468.6005000001751ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 10:34:41.700
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 10:34:41.975
+!MESSAGE [Info]	[fetchCompletions] Request 4eb765b9-7dab-440f-b89c-4fa4964b0cb9 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 257.85269999993034ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 10:34:42.032
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 10:34:46.864
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 10:34:46.865
+!MESSAGE [Info]	[fetchCompletions] Request e8b6934e-b5be-4c32-b4d5-15a69ba4ac97 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 324.1573999999091ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 10:34:47.226
+!MESSAGE [Info]	[fetchCompletions] Request 9a3f1046-ef73-46dd-a946-a2e652886f30 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 306.24680000008084ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 10:34:47.249
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 10:43:34.234
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 10:43:34.235
+!MESSAGE [Info]	[fetchCompletions] Request 0a4055ee-2394-4625-96bc-9fb7defcfbc9 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 621.8098999999929ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 10:43:40.224
+!MESSAGE [Info]	[fetchCompletions] Request 672a1589-13f6-4086-aae7-d32a0ea50c63 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 286.7306000001263ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 10:43:40.225
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 10:43:52.814
+!MESSAGE [Info]	[fetchCompletions] Request d22f8411-f02f-4184-bd30-92fe2d622edb at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 269.3296000000555ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 10:43:52.815
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 11:09:39.759
+!MESSAGE [Info]	[fetchCompletions] Request cefc50bb-cdc8-4f90-a896-d2c45f081708 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 885.8198000001721ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 11:09:39.760
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 11:20:11.383
+!MESSAGE [Info]	[fetchCompletions] Request 84281397-d374-4ec8-abd5-ad1f9d894f1d at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 657.3865000000224ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 11:20:11.385
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 11:20:45.803
+!MESSAGE [Info]	[fetchCompletions] Request d41da794-1859-4422-8149-d2ff290fffde at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 717.7818999998271ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 11:20:45.804
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 11:23:49.702
+!MESSAGE [Info]	[fetchCompletions] Request b1d8214d-9560-4cde-bdcc-ab5a4170efd8 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 1323.7109000002965ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 11:23:49.704
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 11:23:55.781
+!MESSAGE [Info]	[fetchCompletions] Request 67fa2251-31d6-4d49-846e-1a820627e613 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 323.4517000000924ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 11:23:55.783
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 11:24:00.356
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 11:24:00.357
+!MESSAGE [Info]	[fetchCompletions] Request c39fa7a2-396c-4ee9-b60b-2999e0fc5213 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 358.9747000001371ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 11:24:00.759
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 11:24:00.760
+!MESSAGE [Info]	[fetchCompletions] Request 6ff1a874-091e-4aa3-bc4c-15c043e70e93 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 313.67729999963194ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 11:26:59.714
+!MESSAGE [Info]	[fetchCompletions] Request 8fb0a717-5b34-46a0-85a8-ed7815aafa13 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 985.4830000000075ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 11:26:59.816
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 11:27:10.946
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 11:27:10.947
+!MESSAGE [Info]	[fetchCompletions] Request 6e3534dd-e5fd-4f72-8c3c-4b84b28da678 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 926.7255000006407ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 11:27:22.089
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 11:27:22.090
+!MESSAGE [Info]	[fetchCompletions] Request e2f8762a-b41d-419d-a368-c3406dcf5205 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 424.0235999999568ms
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-22 12:14:37.108
+!MESSAGE [Info] Completion request timed out after 5000 milliseconds
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 12:14:48.625
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 12:14:48.626
+!MESSAGE [Info]	[fetchCompletions] Request 42e230ae-1d36-4de1-87ea-115623a4a655 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 4944.133600000292ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 12:15:09.121
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 12:15:09.122
+!MESSAGE [Info]	[fetchCompletions] Request 795687ec-3477-4f1e-88f6-97fc670bae9d at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 1224.4621000001207ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 12:15:32.627
+!MESSAGE [Info]	[fetchCompletions] Request 14404241-2e09-4bcc-9254-90e9ab7dfcb3 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 1471.567300000228ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 12:15:32.628
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 12:16:25.443
+!MESSAGE [Info]	[fetchCompletions] Request 0422b83f-2f59-4753-b9d1-92be3a578de6 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 798.0348000004888ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 12:16:25.575
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 12:16:33.512
+!MESSAGE [Info]	[fetchCompletions] Request df8a31c2-8e80-4870-b66a-2c456dd77844 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 7880.450899999589ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 12:16:33.513
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 12:23:05.115
+!MESSAGE [Info]	[fetchCompletions] Request 10392364-9029-444b-8090-3d2927e300f9 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 944.8751000007614ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 12:23:05.115
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 12:28:12.627
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-22 12:28:12.628
+!MESSAGE [Info]	[fetchCompletions] Request 0eaa9444-5ea5-4a97-b11b-5288cb23bf17 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 1302.8503000000492ms
