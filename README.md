@@ -1,4 +1,4 @@
-#Lost & Found Application Backend (Spring boot)
+## Lost & Found Application Backend (Spring boot)
 
 A Spring Boot 3 backend for a campus Lost & Found system. It provides REST APIs for user registration and management, reporting lost and found items, and fuzzy matching/search to help users find likely matches.
 
